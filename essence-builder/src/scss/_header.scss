@@ -1,0 +1,37 @@
+
+header .container {
+
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+
+    img {
+        height: 15rem;
+    }
+
+    .hero {
+        align-items: flex-end;
+        background-image: url('../assets/images/builder-banner.png');
+        background-repeat: no-repeat;
+        background-position: top center;
+        height: 45rem;
+        display: flex;
+        padding-bottom: 4rem;
+        width: 100%;
+        font-family: 'Indie Flower', cursive;
+        font-size: 1.7rem;
+        img {
+            position: absolute;
+            right: 200rem;
+        }
+        h1 {
+            padding: 1rem 0 0;
+            text-align: center;
+            width: 100%;
+            margin-right: 20px;
+            color: #D3FFEF;
+        }
+    }
+
+}

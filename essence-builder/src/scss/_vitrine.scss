@@ -1,0 +1,77 @@
+.vitrine {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+
+    &__item {
+        background-color: #132F25;
+        border-radius: 1rem;
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+ 
+        padding: 1rem;
+        position: relative;
+        &:hover{
+            transition: 0.3s;
+            box-shadow: 0 0 2px 5px #77C68D;
+        }
+    }
+
+    &__image {
+        justify-content: center;
+        display: flex;
+        width: 100%;
+    }
+
+    &__title {
+        font-size: 2rem;
+        color: #bdffe8;
+        text-align: center;
+        width: 100%;
+    }
+
+    &__desc {
+        color: #89c5b0;
+        font-size: $font-size-default;
+        margin-bottom: 3rem;
+        padding: 0 1rem;
+        text-align: center;
+    }
+
+
+
+    &__button {
+        background-color: #1c4134;
+        border-radius: 20px;
+        color: #D3FFEF;
+        font-weight: bold;
+        padding: 1rem 2rem;
+        font-size: $font-size-default;
+        text-decoration: none;
+        align-self: center;
+        margin-bottom: 2rem;
+        &:hover {
+            background-color: #27614d;
+            box-shadow: 0 0 0px 3px #27614d;
+            transition: 0.5s;
+        }
+    }
+    &__button01 {
+        background-color: #1c4134;
+        border-radius: 20px;
+        color: #D3FFEF;
+        font-weight: bold;
+        padding: 1rem 4rem;
+        font-size: $font-size-default;
+        text-decoration: none;
+        align-self: center;
+        margin-bottom: 2rem;
+        &:hover {
+            background-color: #27614d;
+            box-shadow: 0 0 0px 3px #27614d;
+            transition: 0.5s;
+        }
+    }
+}
+
